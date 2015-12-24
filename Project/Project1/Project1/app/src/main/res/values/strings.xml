@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Project1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="food">
+        <item>Food Beverges</item>
+        <item>Fruits Vegetables</item>
+        <item>Staples Groceries</item>
+        <item>Dals</item>
+        <item>Flours</item>
+        <item>Rice</item>
+        <item>Spices</item>
+
+    </string-array>
+</resources>

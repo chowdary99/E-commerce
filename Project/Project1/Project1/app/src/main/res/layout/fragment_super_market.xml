@@ -1,0 +1,193 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="51dp"
+    android:layout_height="match_parent"
+
+    tools:context="com.sriram.user.project1.SuperMarketFragment">
+
+   <LinearLayout
+       android:id="@+id/lv1"
+       android:layout_width="match_parent"
+
+       android:layout_height="match_parent"
+
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll1"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="FOOD BEVERGES"
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:textColor="@color/textcolor"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="+"
+               android:textSize="30dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="80dp"
+               android:textColor="@color/textcolor"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll2"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="FRUITS VEGETABLES"
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:textColor="@color/textcolor"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="+"
+               android:textSize="30dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="45dp"
+               android:textColor="@color/textcolor"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll3"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="STAPLES GROCERIES"
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="30dp"
+               android:textColor="@color/textcolor"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="-"
+               android:textSize="50dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="40dp"
+               android:textColor="@color/textcolor"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll4"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+               android:text="DALS(PULSES)"
+               android:textSize="20dp"
+               android:layout_marginLeft="95dp"
+               android:textColor="@color/textcolor"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll5"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="RICE"
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="130dp"
+               android:textColor="@color/textcolor"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll6"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="FLOURS"
+               android:textSize="20dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="120dp"
+               android:textColor="@color/textcolor"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+       <LinearLayout
+           android:id="@+id/ll7"
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="SPICES"
+               android:textSize="20dp"
+               android:layout_gravity="center"
+               android:layout_marginLeft="120dp"
+               android:textColor="@color/textcolor"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="@color/textcolor">
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

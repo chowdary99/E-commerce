@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/feedback"
+
+                android:title="FeedBack" />
+            <item
+                android:id="@+id/contact"
+
+                android:title="Contact Us" />
+        </menu>
+    </item>
+    <item android:title="Policies">
+        <menu>
+            <item
+                android:id="@+id/privacy"
+
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/terms"
+
+                android:title="Terms  Conditions" />
+            <item
+                android:id="@+id/disclaimer"
+
+                android:title="Disclaimer" />
+            <item
+                android:id="@+id/cancelation"
+
+                android:title="Cancelation Policy" />
+            <item
+                android:id="@+id/shipping"
+
+                android:title="Shipping and Delivery" />
+
+        </menu>
+    </item>
+
+</menu>
