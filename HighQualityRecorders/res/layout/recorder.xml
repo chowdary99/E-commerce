@@ -1,0 +1,54 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/music_bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Recording"
+        android:textSize="25sp"
+        android:textColor="#33d6ff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+<ImageView
+    android:id="@+id/iv1"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/iphoto"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio Recording"
+        android:textSize="25sp"
+        android:textColor="#33d6ff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/audio1"/>
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Recording"
+        android:textSize="25sp"
+        android:textColor="#33d6ff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/callimage"/>
+</LinearLayout>
+

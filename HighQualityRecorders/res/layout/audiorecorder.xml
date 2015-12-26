@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+       
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Press Record"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <Chronometer
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:format="%s"
+            android:textColor="#ff0000"
+            android:textSize="80sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp" >
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="open"
+            android:background="@drawable/record_button"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+             android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="open"
+            android:background="@drawable/reset"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:onClick="open"
+            android:background="@drawable/stop"/>
+    </LinearLayout>
+
+</LinearLayout>
